@@ -1,12 +1,12 @@
 # 🌦️ Weather Data Analysis & Prediction
 
-An AI-based machine learning application for analyzing historical weather data from Indian cities and predicting maximum temperature.
+An **AI-based machine learning application** for analyzing historical weather data from Indian cities and predicting maximum temperature.
 
 ## 📌 Project Overview
 
-This project uses historical daily weather data from Indian cities to analyze temperature, rainfall and wind conditions.
+This project uses historical daily weather data from Indian cities to analyze **temperature, rainfall, precipitation and wind conditions**.
 
-A **Random Forest Regression** model is used to predict the maximum temperature based on:
+A **Random Forest Regression** model is used to predict maximum temperature based on:
 
 * City
 * Minimum temperature
@@ -20,7 +20,7 @@ A **Random Forest Regression** model is used to predict the maximum temperature 
 * Month
 * Day
 
-The project provides an interactive **Streamlit web application** for weather analysis and prediction.
+The project provides an interactive **Streamlit web application** for weather analysis and temperature prediction.
 
 ## ✨ Features
 
@@ -59,11 +59,11 @@ Random Forest uses multiple decision trees and combines their predictions to pro
 
 The model was evaluated using test data.
 
-| Metric   | Result |
-| -------- | -----: |
-| R² Score |   0.97 |
-| MAE      | 0.57°C |
-| RMSE     | 0.77°C |
+| Metric   |     Result |
+| -------- | ---------: |
+| R² Score |   **0.97** |
+| MAE      | **0.57°C** |
+| RMSE     | **0.77°C** |
 
 **MAE (Mean Absolute Error)** represents the average difference between predicted and actual maximum temperature.
 
@@ -107,7 +107,7 @@ Temperature Prediction
 ## 📁 Project Structure
 
 ```text
-CWeather_Data_Analysis_Prediction
+CWeather_Data_Analysis_Prediction/
 │
 ├── app.py
 ├── weather_prediction.py
@@ -167,9 +167,9 @@ http://localhost:8501
 
 ### 1. Historical Weather Data
 
-Select a city and historical date. The application automatically retrieves the weather conditions from the dataset and predicts the maximum temperature.
+Select a city and historical date. The application retrieves the weather conditions from the dataset and predicts the maximum temperature.
 
-The application also displays:
+The application displays:
 
 * Predicted temperature
 * Actual temperature
@@ -201,10 +201,11 @@ The main objective is to demonstrate how machine learning can be applied to hist
 
 ## ⚠️ Note
 
-The application is an internship-level machine learning project based on historical weather data. Predictions depend on the quality and range of the available dataset and should not be treated as official weather forecasts.
+This is an internship-level machine learning project based on historical weather data. Predictions depend on the quality and range of the available dataset and should not be treated as official weather forecasts.
 
-## 👨‍💻 Project Type
+## 👨‍💻 Project Details
 
-**Machine Learning Internship Project**
-
+**Project Type:** Machine Learning Internship Project
 **Domain:** Data Science / Machine Learning / Weather Analytics
+**Algorithm:** Random Forest Regression
+**Interface:** Streamlit
